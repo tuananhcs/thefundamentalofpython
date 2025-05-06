@@ -5,6 +5,7 @@ from utils.ex1_nest_function_call import ex1
 # from utils.ex4_closure_with_var import outer_scope2
 from utils.ex6_high_order_func_map_reduce import ex6
 from utils.ex8_try_catch import ex8 
+from utils.compare_2_df import compare
 
 def main():
     # result = add(5, 3)
@@ -24,7 +25,7 @@ def main():
     # outer_scope()
     # outer_scope2()
     # ex6()
-    ex8()
+    compare()
 
 
 if __name__ == "__main__":
